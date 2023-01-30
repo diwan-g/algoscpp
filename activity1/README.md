@@ -21,7 +21,7 @@
 
   > Refer to `./src/search-binary.cpp`
   - Time complexity is O(log n)
-    - Number of steps it will take to perform is 5. log(100000) 
+    - Number of steps it will take to perform is 17. log(100000) 
 
 ## Task 4/5: Quiz
 
