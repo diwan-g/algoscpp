@@ -20,32 +20,52 @@ Refer to the first [link](#links).
 Refer to the first [link](#links).
 
 - Write a simple algorithm in C++ that finds the square of the first item in a list and then prints it on the screen.
-  - #include <iostream>
-    #include <string>
+<code>
+  - #include \<iostream>
+    #include \<string>
     using namespace std;
 int main()
 {
     int myarray[10] = {21, 43, 23, 54, 75, 13, 5, 8, 25, 10};
     cout << myarray[0] * myarray[0];
 }
+</code>
 - What is the complexity of the algorithm?
-  - O(C). Contant complexity
+  - O(1). Contant complexity
 
 ## Task 3
 
 Refer to the first [link](#links).
 
 - Write a simple program that displays all items in a list to the console.
+<code>
+#include \<iostream>
+using namespace std;
+
+int main()
+{
+    int arr_int[] = { 1,2,3,4,5,6,7,8,9,10 };
+
+    for (int i : arr_int) {
+        cout << i;
+
+    }
+}
+</code>
 - What is the complexity of the algorithm?
+Time complexity is O(N)
 
 ## Task 4: : Individual, at home
 
 Refer to this [pdf](./big_o.pdf):
 
 - What is the difference between complexity and performance:
-- Does complexity affects performance bor is it the other way around?
+    - Performance refers to the actual amount of resources (time/memory/disk etc.) is consumed while program is running. It is dependant on the code and the machine it is run on. 
+    - Complexity is about how does the resource requirement scale when input gets larger. it is usually as a function of the size of the input.
+- Does complexity affects performance or is it the other way around?
+  - Complexity affects the performance. Complexity of an algorithm provides  expected performance in for instance worst case scenarios, but the actual performance can be influenced by other factors such as the hardware, the implementation, and the input size and distribution. Optimized algorithm might have good runtime theoretically but it might run slower on less powerful machine.
 - Restate the formal definition of big $O$ in plain English
-
+    - Big(O) denotes the amount of time it takes to solve a problem, as the size of the input increases. Basically, how running time of an algorithm increases as the size of the input becomes larger.
 ## Links
 
 - [Big O Notation and Algorithm Analysis ](https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples/)
