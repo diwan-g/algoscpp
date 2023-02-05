@@ -7,7 +7,7 @@ The code in `./src/pow1.cpp` and `./src/pow2.cpp` compute the power `pow(x, n)` 
 > Refer to the following [link](https://www.techiedelight.com/power-function-implementation-recursive-iterative/).
 
 - What is the time complexity for both approaches?
-  - time complexity for both approaches is O(log n).
+  - time complexity for both approaches is O(n).
 
 ## Task 2/3: Divide-and-conquer vs Decrease and conquer
 
