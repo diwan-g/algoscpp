@@ -1,4 +1,7 @@
-#include <stdio.h>
+//CPP syntax
+
+#include <iostream>
+using namespace std;
 
 // Iterative implementation of the binary search algorithm to return
 // the position of `target` in array `nums` of size `n`
@@ -44,7 +47,7 @@ int binarySearch(int nums[], int n, int target)
 
 int main(void)
 {
-    int nums[] = {2, 5, 6, 8, 9, 10};
+    int nums[] = { 2, 5, 6, 8, 9, 10 };
     int target = 5;
 
     int n = sizeof(nums) / sizeof(nums[0]);
@@ -52,11 +55,11 @@ int main(void)
 
     if (index != -1)
     {
-        printf("Element found at index %d", index);
+        cout << "Element found at index: " << index;
     }
     else
     {
-        printf("Element not found in the array");
+        cout << "Element not found in the array";
     }
 
     return 0;
