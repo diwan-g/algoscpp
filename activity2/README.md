@@ -23,7 +23,7 @@ Refer to the first [link](#links).
 ```cpp 
  #include <iostream>
  #include <string>
-    using namespace std;
+ using namespace std;
 int main()
 {
     int myarray[10] = {21, 43, 23, 54, 75, 13, 5, 8, 25, 10};
