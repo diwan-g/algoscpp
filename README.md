@@ -1,6 +1,9 @@
 # Topics
 $O$
-$$ \sqrt(5)$$
+
+$$ \sqrt(5)$$check
+
+
 - Review
 - Algorithm techniques
   - Brute Force
