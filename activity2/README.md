@@ -20,7 +20,9 @@ Refer to the first [link](#links).
 Refer to the first [link](#links).
 
 - Write a simple algorithm in C++ that finds the square of the first item in a list and then prints it on the screen.
-  - #include <iostream>
+  -
+  '''
+  #include <iostream>
     #include <string>
     using namespace std;
 int main()
@@ -28,6 +30,7 @@ int main()
     int myarray[10] = {21, 43, 23, 54, 75, 13, 5, 8, 25, 10};
     cout << myarray[0] * myarray[0];
 }
+  '''
 - What is the complexity of the algorithm?
   - O(C). Contant complexity
 
