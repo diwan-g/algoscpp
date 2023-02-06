@@ -39,8 +39,8 @@ int main()
 Refer to the first [link](#links).
 
 - Write a simple program that displays all items in a list to the console.
-<code>
-#include \<iostream>
+```cpp
+#include <iostream>
 using namespace std;
 
 int main()
@@ -52,7 +52,8 @@ int main()
 
     }
 }
-</code>
+
+
 - What is the complexity of the algorithm?
 Time complexity is O(N)
 
