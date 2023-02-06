@@ -20,8 +20,9 @@ Refer to the first [link](#links).
 Refer to the first [link](#links).
 
 - Write a simple algorithm in C++ that finds the square of the first item in a list and then prints it on the screen.
-  -
+  
   '''
+ 
   #include <iostream>
     #include <string>
     using namespace std;
