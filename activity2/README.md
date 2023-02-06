@@ -52,7 +52,7 @@ int main()
 
     }
 }
-
+```
 
 - What is the complexity of the algorithm?
 Time complexity is O(N)
