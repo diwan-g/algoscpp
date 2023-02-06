@@ -23,8 +23,8 @@ Refer to the first [link](#links).
   
   <code>
  
-  #include /<iostream>
-    #include /<string>
+  #include //<iostream>
+    #include //<string>
     using namespace std;
 int main()
 {
