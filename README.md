@@ -1,5 +1,6 @@
 # Topics
 $O$
+$$ \sqrt(5)$$
 - Review
 - Algorithm techniques
   - Brute Force
