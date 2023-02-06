@@ -1,5 +1,5 @@
 # Topics
-
+$O$
 - Review
 - Algorithm techniques
   - Brute Force
